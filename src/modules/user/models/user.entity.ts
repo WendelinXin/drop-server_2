@@ -11,7 +11,7 @@ export class  User {
         default: '',
     })
     @IsNotEmpty()
-    name:　string;
+    name: string;
 
     @Column({
         comment: '描述信息',
